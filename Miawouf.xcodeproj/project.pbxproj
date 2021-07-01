@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		4FA96BC6268DA78F00D2FAD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BC5268DA78F00D2FAD6 /* AppDelegate.swift */; };
-		4FA96BC8268DA78F00D2FAD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BC7268DA78F00D2FAD6 /* SceneDelegate.swift */; };
-		4FA96BCA268DA78F00D2FAD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BC9268DA78F00D2FAD6 /* ViewController.swift */; };
 		4FA96BCD268DA78F00D2FAD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA96BCB268DA78F00D2FAD6 /* Main.storyboard */; };
 		4FA96BCF268DA79000D2FAD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA96BCE268DA79000D2FAD6 /* Assets.xcassets */; };
 		4FA96BD2268DA79000D2FAD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA96BD0268DA79000D2FAD6 /* LaunchScreen.storyboard */; };
 		4FA96BDA268DA9A600D2FAD6 /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BD9268DA9A600D2FAD6 /* Races.swift */; };
+		4FA96BE0268DB5EA00D2FAD6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BDF268DB5EA00D2FAD6 /* WelcomeViewController.swift */; };
+		4FA96BE2268DB80900D2FAD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BE1268DB80900D2FAD6 /* SceneDelegate.swift */; };
+		4FA96BE4268DB8C600D2FAD6 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BE3268DB8C600D2FAD6 /* FormViewController.swift */; };
+		4FA96BE6268DBB4B00D2FAD6 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BE5268DBB4B00D2FAD6 /* SuccessViewController.swift */; };
+		4FA96BE8268DF5DD00D2FAD6 /* CatWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BE7268DF5DD00D2FAD6 /* CatWelcomeViewController.swift */; };
+		4FA96BEB268DFC2600D2FAD6 /* CatFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BEA268DFC2600D2FAD6 /* CatFormViewController.swift */; };
+		4FA96BED268DFC3B00D2FAD6 /* CatSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA96BEC268DFC3B00D2FAD6 /* CatSuccessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FA96BC2268DA78F00D2FAD6 /* Miawouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miawouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA96BC5268DA78F00D2FAD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FA96BC7268DA78F00D2FAD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FA96BC9268DA78F00D2FAD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FA96BCC268DA78F00D2FAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FA96BCE268DA79000D2FAD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA96BD1268DA79000D2FAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FA96BD3268DA79000D2FAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FA96BD9268DA9A600D2FAD6 /* Races.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Races.swift; sourceTree = "<group>"; };
+		4FA96BDF268DB5EA00D2FAD6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4FA96BE1268DB80900D2FAD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4FA96BE3268DB8C600D2FAD6 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		4FA96BE5268DBB4B00D2FAD6 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		4FA96BE7268DF5DD00D2FAD6 /* CatWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatWelcomeViewController.swift; sourceTree = "<group>"; };
+		4FA96BEA268DFC2600D2FAD6 /* CatFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFormViewController.swift; sourceTree = "<group>"; };
+		4FA96BEC268DFC3B00D2FAD6 /* CatSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSuccessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,61 @@
 		4FA96BC4268DA78F00D2FAD6 /* Miawouf */ = {
 			isa = PBXGroup;
 			children = (
+				4FA96BDC268DADFD00D2FAD6 /* Conf */,
+				4FA96BDB268DAD6900D2FAD6 /* Model */,
+				4FA96BDD268DAE2D00D2FAD6 /* Controller */,
+				4FA96BDE268DAE3600D2FAD6 /* View */,
+			);
+			path = Miawouf;
+			sourceTree = "<group>";
+		};
+		4FA96BDB268DAD6900D2FAD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				4FA96BD9268DA9A600D2FAD6 /* Races.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FA96BDC268DADFD00D2FAD6 /* Conf */ = {
+			isa = PBXGroup;
+			children = (
+				4FA96BE1268DB80900D2FAD6 /* SceneDelegate.swift */,
+				4FA96BD3268DA79000D2FAD6 /* Info.plist */,
 				4FA96BC5268DA78F00D2FAD6 /* AppDelegate.swift */,
-				4FA96BC7268DA78F00D2FAD6 /* SceneDelegate.swift */,
-				4FA96BC9268DA78F00D2FAD6 /* ViewController.swift */,
+			);
+			path = Conf;
+			sourceTree = "<group>";
+		};
+		4FA96BDD268DAE2D00D2FAD6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FA96BE9268DFBC600D2FAD6 /* Cats */,
+				4FA96BDF268DB5EA00D2FAD6 /* WelcomeViewController.swift */,
+				4FA96BE3268DB8C600D2FAD6 /* FormViewController.swift */,
+				4FA96BE5268DBB4B00D2FAD6 /* SuccessViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4FA96BDE268DAE3600D2FAD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				4FA96BCB268DA78F00D2FAD6 /* Main.storyboard */,
 				4FA96BCE268DA79000D2FAD6 /* Assets.xcassets */,
 				4FA96BD0268DA79000D2FAD6 /* LaunchScreen.storyboard */,
-				4FA96BD3268DA79000D2FAD6 /* Info.plist */,
 			);
-			path = Miawouf;
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FA96BE9268DFBC600D2FAD6 /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+				4FA96BE7268DF5DD00D2FAD6 /* CatWelcomeViewController.swift */,
+				4FA96BEA268DFC2600D2FAD6 /* CatFormViewController.swift */,
+				4FA96BEC268DFC3B00D2FAD6 /* CatSuccessViewController.swift */,
+			);
+			path = Cats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA96BE0268DB5EA00D2FAD6 /* WelcomeViewController.swift in Sources */,
+				4FA96BED268DFC3B00D2FAD6 /* CatSuccessViewController.swift in Sources */,
+				4FA96BEB268DFC2600D2FAD6 /* CatFormViewController.swift in Sources */,
 				4FA96BDA268DA9A600D2FAD6 /* Races.swift in Sources */,
-				4FA96BCA268DA78F00D2FAD6 /* ViewController.swift in Sources */,
 				4FA96BC6268DA78F00D2FAD6 /* AppDelegate.swift in Sources */,
-				4FA96BC8268DA78F00D2FAD6 /* SceneDelegate.swift in Sources */,
+				4FA96BE4268DB8C600D2FAD6 /* FormViewController.swift in Sources */,
+				4FA96BE8268DF5DD00D2FAD6 /* CatWelcomeViewController.swift in Sources */,
+				4FA96BE6268DBB4B00D2FAD6 /* SuccessViewController.swift in Sources */,
+				4FA96BE2268DB80900D2FAD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JWQB2GF6V;
-				INFOPLIST_FILE = Miawouf/Info.plist;
+				INFOPLIST_FILE = Miawouf/Conf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JWQB2GF6V;
-				INFOPLIST_FILE = Miawouf/Info.plist;
+				INFOPLIST_FILE = Miawouf/Conf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
